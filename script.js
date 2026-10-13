@@ -15,7 +15,7 @@ const thumbs = document.querySelectorAll('.thumb');
 
 const text = document.querySelector('#caption');
 
-//マウスオーバー
+//マウスオーバー 
 thumbs.forEach(function(item, index) {
   item.onmouseover = function() {
     //console.log(this.dataset.image);
